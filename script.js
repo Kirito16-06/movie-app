@@ -4,7 +4,7 @@ const inputBox = document.querySelector('.input-Box');
 const movieposter = document.querySelector('.movie-poster');
    
 const getMovieInfo =(movie)=>{
-    const myApikey="*******"
+    const myApikey=" a48c6a43"
    try{
     const url = `https://www.omdbapi.com/?apikey=${myApikey}&t=${movie}`;
     const response  = fetch(url);
